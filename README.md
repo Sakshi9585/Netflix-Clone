@@ -1,6 +1,16 @@
-# Netflix
+# Netflix Clone
+
+This project is a Netflix-clone web application built using Angular and Tailwind CSS. It utilizes JSON data to dynamically render movie information, and the application is designed to be responsive.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+## Features
+
+- Responsive design for various screen sizes.
+- Dynamic rendering of movie information from JSON data.
+- Angular framework for building scalable and maintainable components.
+- Tailwind CSS for styling and ensuring a modern and clean user interface.
+
+
 
 ## Development server
 
