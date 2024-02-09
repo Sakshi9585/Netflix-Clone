@@ -1,19 +1,19 @@
-<header class="h-[68px] z-10 bg-gray-900 fixed w-full top-0 flex items-center justify-between px-10">
+<header class="h-[50px] md:h-[68px] z-10 bg-gray-900 fixed w-full top-0 flex items-center justify-between px-4 md:px-10">
     <!-- logo + navitems -->
-    <div class="flex gap-5">
-        <img width="110" src="assets/logo.png" alt="this in netflix logo">
-        <ul class="flex items-center px-2 hover:bg-gray-500 cursor-pointe transition-[1s]" *ngFor="let item of navList">
-            <li class="text-neutral-200 font-medium text-sm cursor-pointer">{{item}}</li>
+    <div class="flex gap-0 md:gap-5">
+        <img class="md:w-[110px] w-[60px]" src="assets/logo.png" alt="this in netflix logo">
+        <ul class="hidden sm:flex items-center px-2 hover:bg-gray-500 cursor-pointe transition-[1s]" *ngFor="let item of navList">
+            <li class="text-neutral-200 font-medium text-[10px] md:text-sm cursor-pointer">{{item}}</li>
         </ul>
     </div>
 
     <!-- welcome user / profile img/ sign out -->
 
-    <div class="text-white flex gap-2 items-center">
-        <a href=""><span>welcome <strong>Sakshi</strong></span></a>
-        <img class="rounded-[50px]" width="40" [src]="userImg" alt="user img">
+    <div class="text-white flex gap-0.5 md:gap-2 items-center">
+        <a href="" class="text-[10px] md:text-sm"><span>welcome <strong>Sakshi</strong></span></a>
+        <img class="rounded-[50px] w-5 md:w-10" [src]="userImg" alt="user img">
         &nbsp; | &nbsp;
-        <a href="/">SignOut</a>
+        <a href="/" class="text-[10px] md:text-sm">SignOut</a>
     </div>
 
 </header>
